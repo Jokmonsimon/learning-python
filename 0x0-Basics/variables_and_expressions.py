@@ -17,3 +17,14 @@ print(my_bool) # True or False
 print(my_list) # Include any data type in square bracket
 print(my_tuple) # Imutable - cannot be changed
 print(my_dict) # Maps uniques keys to its pair values
+
+# Re-declaring a variable
+my_int = "Integer re-declared as string"
+print(my_int)
+
+# To access a member of a sequence type, use []
+print(my_list[-4])
+print(my_list[1])
+print(my_list[0:2])
+print(my_list[1:5:2])
+print(my_tuple[1:4])
